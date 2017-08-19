@@ -1,0 +1,37 @@
+body{width:100%;overflow-x:hidden;}
+._link{clear:both;width:1192px;height:25px;margin:0 auto;}
+.sleft{float:left;font-size: 12px;}
+.sright a{color:red;font-size: 12px;float:right;}
+.sright a:hover{text-decoration: underline;}
+#box{clear:both;width:1192px;height:auto;margin:0 auto 20px;position:relative;}
+table{border:1px solid #ccc;}
+table td{border-bottom:1px solid #ccc;}
+thead .fir{width:1192px;height:39px;font-size:12px;line-height:39px;text-align:left;background:#eee;}
+thead .fir td{width:160px;}
+thead .fir .one{width:258px;}
+thead .fir .two{width:308px;}
+
+tbody tr{width:1192px;height:190px;}
+tbody tr td{text-align:left;}
+tbody tr .num1{width:258px;}/*tbody第一列*/
+tbody tr .num1 .btn{display:inline-block;width:22px;height:22px;float:left;margin:64px 0 0 5px;cursor: pointer;}
+tbody tr .num1 img{width:159px;height:190px;margin-left:64px;}
+tbody tr .num2{width:308px;font-size:12px;line-height:21px;}
+tbody tr .jia{display:inline-block;cursor:pointer;width:15px;height:15px;background: #eee;color:#000;text-align:center;line-height:15px;}
+tbody tr .jian{display:inline-block;cursor:pointer;width:15px;height:15px;background: #eee;color:#000;text-align:center;line-height:15px;}
+tbody tr .count{display:inline-block;width:36px;height:15px;margin:0 3px;text-align:center;font-weight: bold;}
+/*body tr .num2 span{display: block;}*/
+tbody tr .dan{color:#444444;font-weight:bold}
+tbody tr .tital{color:#444444;font-weight:bold}
+tbody tr .made span{display:block;width:50px;background:#e91455;text-align: center;color:#fff;cursor:pointer;}
+
+tfoot tr{width:1192px;height:50px;background:#eee;}
+tfoot .footleft{float:left;line-height:50px;}
+tfoot .footleft span{margin-right: 20px;cursor:pointer;}
+
+tfoot .footright{float:right;line-height:50px;}
+tfoot .footright span{margin-left:35px;}
+tfoot .sp{color:#ff5500;font-weight:bold;margin-left:2px;}
+tfoot .heji{color:#ff5500;font-weight:bold;margin-left:2px;}
+tfoot .jiesuan{display:inline-block;width:100px;height:50px;text-align: center;font-weight:bold;background:#e21357;color:#fff;cursor:pointer;}
+

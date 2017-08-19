@@ -1,0 +1,40 @@
+body{width:100%;overflow-x:hidden;}
+#lotop{width:100%;height:170px;background:#f7f7f7;border-top: 1px solid #ccc;}/*顶部*/
+.head{width:1202px;height:75px;margin:45px auto 0;}/*头部 logo*/
+.head ul li a{float:left;}
+.head ul li .loga{font-size:18px;height:18px;border-left:2px solid #ccc;padding-left:17px;margin-top:30px;float:left;}
+.head ul .liright{float:right;margin-right:10px;margin-top:30px;border-left:2px solid #ccc;border-right:2px solid #ccc;}
+.liright a{font-size: 10px;padding:0 5px;color:#e91456;}
+.liright a:hover{text-decoration: underline;}
+
+#login{width:100%;height:400px;background:#f7f7f7;}/*登录主题部分*/
+.denglu{width:1202px;height:380px;margin:0 auto;}/*居中显示div*/
+.denglu .lo_left{float:left;width:853px;height:380px;}/*存放图片*/
+.denglu .lo_right{width:349px;height:375px;float:left;background: #fff;}/*登录右div 存放登录信息*/
+.lo_right .infor{width:279px;height:316px;padding:0 35px;}/*登录信息具体盛放div*/
+.infor .jilig{display: block;height:40px;line-height:40px;}/*第一层信息*/
+.infor .jilig em a{font-size:12px;float:right;color:#e91456;}
+.infor .jilig em a:hover{text-decoration: underline;}
+.infor input{width:279px;height:32px;margin-top:15px;font-size: 12px;color:#a9a9a9;text-align:left;outline: none;}
+.infor .user{margin-top:0;}/*用户名input*/
+.infor #QR{width:148px;height:32px;float:left;}/*输入验证码input*/
+.infor #yzm{width:95px;height:35px;line-height:35px;background:#e5007f;margin-top:15px;margin-bottom:20px;float:left;text-align:center;font-size:18px;font-weight:bold;color:#fff;cursor:pointer;}/*验证码span*/
+.infor p{clear:both;height:15px;color:#444444;font-size:12px;}/*存放单选框 自动登录等*/
+.infor p span{display: inline-block;}
+.infor p span a{color:#444444;}
+.infor p span a:hover{color:#e91456;}
+.infor p input{width:12px;height:12px;margin-top:0;vertical-align: middle;}
+.infor .loginbtn{display:block;width:279px;height:32px;line-height:32px;margin-top:10px;text-align: center;background:#e21357;color:#fff;cursor:pointer;}/*登录点击按钮*/
+.infor .hint{display: block;font-size:12px;color:#444;margin-top:25px;}/*提示信息 使用其他方式登录*/
+.lo_right .chat{height:62px;text-align:center;border-top: 1px solid #ccc;}/*登陆的其他方式*/
+.lo_right .chat span{display:block;margin-top:10px;}
+.lo_right .chat a{font-size:12px;color:#444444;margin-right:10px;}
+.lo_right .chat img{vertical-align: middle;}
+.lo_right .chat .qq{width:16px;height:16px;}
+
+
+
+
+
+
+

@@ -1,0 +1,56 @@
+/*#menu{width:1192px;height::481px;position:relative;margin:0 auto;z-index:2;}*/
+/*#menu .left_menu{float:left;width:190px;height:481px;position:absolute;top:0;left:0;background: #3b2c33;cursor: pointer;display: none;}
+#menu ._none{width:570px;height:481px;position: absolute;left:190px;top:0;background: #fff;opacity: 0.8;filter: alpha(opacity=80);display:none;cursor: pointer;}
+*/
+body{width:100%;overflow-x: hidden;}
+#box{width:1192px;height:580px;margin:0 auto;position:relative;}
+.shop{cursor:pointer;}
+.zimune{width:180px;height:200px;padding-left:10px;position:absolute;top:0;left:0;background:#fff;border:1px solid #ccc;display:none;}
+.zimune ul li{font-size:14px;line-height:30px;}
+.zimune ul li:hover{text-decoration:underline;color:red;cursor:pointer;}
+.dmain .dtit{height:46px;}
+.dmain .dleft{clear:both;width:400px;height:476px;float:left;/*position:relative;*/}
+.dmain .dcent{position:relative;}
+.dmain .dcent img{width:396px;height:396px;border:1px solid #ccc;}
+#fdj{width:100px;height:100px;position:absolute;background:red;opacity: 0.3;filter:alpha(opacity=30);display: none;}
+.dmain .minsmall img{margin-top:9px;width:64px;height:64px;border:1px solid #ccc;cursor:pointer;}
+.dmain .dshow{width:400px;height:400px;overflow:hidden;position:absolute;top:0;left:400px;display:none;}
+.dmain .dshow img{width:750px;height:750px;position: absolute;top:0;left:0;}
+.dmain .dright{width:740px;float:left;margin-left:20px;}
+/*删*/
+
+.dmain .dright .size{display:inline-block;width:134px;padding-left:25px;height:52px;font-size:12px;line-height:52px;}
+.baohan{display:inline-block;width:105px;height:30px;text-align:center;border:1px solid #ccc;}
+.l,.xl{display:inline-block;width:40px;height:20px;border:1px solid #ccc;margin-top:5px;cursor:pointer;}
+.l{background: #bf0200;}
+.shuliang span{display:inline-block;width:25px;height:25px;vertical-align: middle;}
+.shuliang input{display: inline-block;width:48px;height:24px;text-align:center;margin:0 10px;}
+.shao{background: url(../images/shao.jpg);cursor:pointer;}
+.duo{background: url(../images/duo.jpg);cursor:pointer;}
+
+#dlast{margin-top:75px;}/*立即购买等*/
+#dlast span{display:inline-block;height:30px;line-height:30px;font-size:14px;text-align:center;border:1px solid #ccc;cursor:pointer;}
+.dbuy{width:174px;background:#ccc;}
+.dadd{width:178px;color:#fff;margin:0 10px;background:#e21357;}
+.shou{width:54px;background:#ccc;}
+
+.fenxiang{clear:both;width:1192px;height:60px;position:relative;}
+.fenxiang p{font-size:12px;line-height:60px;}
+.fenxiang img{width:16px;height:16px;vertical-align:middle;margin-right:8px;}
+
+#dapei{width:1192px;height:343px;margin:0 auto;margin-bottom:20px;background: url(../images/dapei.jpg) no-repeat;}
+
+#last2{width:1192px;min-height:1500px;margin:0 auto;}
+.liulan{width:192px;min-height:829px;float:left;background:url(../images/liulan.jpg) no-repeat;}
+.jieshao{float:left;width:962px;height:auto;margin-left:10px;position:relative;border:1px solid #e8e8e7;}
+.jieshao img{display: block;}
+.dbtn{width:986px;height:40px;text-align:center;line-height:40px;font-size:12px;background:#eee;}
+.dbtn span{display:inline-block;width:192px;height:40px;background:url(../images/bj1.jpg) center 0 no-repeat;cursor:pointer;}
+.dbtn .done{background:url(../images/bj2.jpg) center 0 no-repeat;}
+.shangpin{position:absolute;top:40px;left:0;display:block;}
+.shangpin img{margin-left:150px;}
+.canshu{position:absolute;width:986px;height:721px;top:40;left:0;border:1px solid #ccc;background:url(../images/canshu.jpg) center center no-repeat;display: none;}
+.qingdan{width:986px;height:184px;position:absolute;top:40px;left:0;background:url(../images/qingdan.jpg) center center no-repeat;display:none;}
+.pingjia{width:986px;height:100px;background: url(../images/pingjia.jpg) center no-repeat;display:none;}
+.zixun{width:986px;height:240px;background:url(../images/zixun.jpg) no-repeat center 0;display:none;}
+

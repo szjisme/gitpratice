@@ -1,0 +1,80 @@
+*{margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6{font-weight: normal;}
+ul,li{list-style: none;;}
+a{text-decoration:none;}
+em{font-style:normal;}
+img{border:0;}
+
+body{width:100%;overflow-x:hidden;}
+#top{width:100%;height:36px;border-bottom:1px solid #ccc;background:#f7f7f7;}/*顶部css*/
+#top .fir{width:1192px;font-size:12px;margin:0 auto;}/*顶部第一层div居中显示*/
+.fir span{display: block;height:36px;line-height:36px;float:left;}/*div 中所以span左漂浮*/
+.fir span a{color:#444444;}/*a 链接下的字体颜色*/
+.fir img{vertical-align:middle;margin-right:4px;}/*img图片垂直居中显示并有margin-right值*/
+.fir span em{color:#e21458;margin-left:4px;font-weight:bold;font-size:14px;}/*联系电话单独设置颜色 加粗*/
+.fir .cent{margin-left:67px;}/*中间span的left*/
+.fir .cent a{margin-left:10px;}
+.fir .rigt{float:right;}/*最后一个span右漂浮*/
+.fir .rigt a{margin-right:12px;}/*每个a右间距*/
+.fir .rigt .la{margin-right:0;}/*最后一个a无右间距*/
+.fir a:hover{color:#e41e5e;}
+
+#header{width:100%;height:94px;background:#fff;}/*头部 logo 搜索框部分*/
+.sec{width:1192px;font-size:12px;margin:0 auto;}/*居中设置*/
+.sec div{float:left;}
+.sec .search{margin-left:218px;margin-top:30px;}/*盛放搜索框div*/
+.search .keyword{width:320px;height:32px;line-height:32px;float:left;outline:none;border:1px solid #e21357;color:#a9a9a9;}
+.search .btn{display:block;width:81px;height:34px;float:left;border:none;background:url(../images/sear.jpg) no-repeat 12px 10px  #e21357;text-indent:20px;font-size:12px;font-weight:bold;color:#fff;cursor:pointer;}
+.car{width:156px;height:28px;margin-top:8px;border:1px solid #e8e8e7;margin-left:216px;margin-top:30px;background: url(../images/car.jpg) no-repeat 10px 3px;position:relative;cursor:pointer;}
+.car .num{display:block;width:15px;height:15px;line-height:15px;text-align:center;position:absolute;left:26px;top:5px;color:#fff;}
+.car .mycar{display:inline-block;margin:8px 0 0 50px;}
+.car .mycar a{color:#444;}
+#listTop{clear:both;width:100%;height:34px;border-bottom:2px solid #e91456;}/*商品分类大div*/
+#listTop .list{width:1192px;margin:0 auto;}/*表头部分*/
+.list h3{width:180px;height:34px;line-height:34px;padding-left:10px;float:left;background:#e91456;color:#fff;font-size:18px;font-weight:bold;float:left;}
+.list ul{float:left;margin-left:24px;}
+.list ul li{float:left;}
+.list ul li a{display:inline-block;height:34px;line-height:34px;background:url(../images/bor.jpg) right 12px no-repeat;color:#000;font-size:18px;font-weight:bold;padding:0 20px;}
+.list span{margin-left:234px;font-size:12px;line-height:34px;font-weight:bold;}
+.list span em{color:#e91456;margin-left:4px;}
+.list ul li a:hover{color:#e91456;}
+
+#lastTwo{clear:both;width:100%;border-top:2px solid #e91456;}/*公共样式底部第二段div*/
+#lastTwo .l_fir{width:1192px;height:75px;margin:0 auto;}/*公共样式底部第二段第一层div*/
+#lastTwo .l_fir div{float:left;line-height:75px;}
+#lastTwo .l_fir div img{float:left;margin-top: 10px;}
+#lastTwo .l_fir div h3{font-size:19px;font-weight:bold;color:#000;float:left;margin:0 12px;}
+#lastTwo .l_fir div span{font-size:12px;color:#7f7f7f;line-height:78px;float:left;}
+#lastTwo .l_fir .one{margin-left: 46px;}/*div之间的间距*/
+#lastTwo .l_fir .two{margin:0 150px 0 200px;}
+#lastTwo .l_sec{width:1192px;height:160px;margin:0 auto;}/*公共样式底部第二段第二层div*/
+#lastTwo .l_sec div{float:left;}
+#lastTwo .l_sec .l_left{width:170px;height:160px;background: url(../images/QR.jpg) 0 18px no-repeat;}
+#lastTwo .l_sec .l_cent{width:720px;height:152px;border-left:1px solid #7f7f7f;border-right:1px solid #7f7f7f;}
+#lastTwo .l_sec .l_cent ul li{float:left;margin-right: 80px;}/*第二层中心列表 li左浮*/
+#lastTwo .l_sec .l_cent ul .li_L{margin-left:39px;margin-right: 50px;}/*第二层中心列表首个li单独设置*/
+#lastTwo .l_sec .l_cent ul .li_R{margin-right:0px;}
+#lastTwo .l_sec .l_cent ul li a{display: block;font-size: 12px;margin-top:18px;color:#444444;}
+#lastTwo .l_sec .l_cent ul li a:hover{color:#e91456;}
+#lastTwo .l_sec .l_cent ul li h3{font-size: 14px;margin-top:10px;font-weight:bold;}
+#lastTwo .l_rigt{width:298px;height:160px;}
+#lastTwo .l_rigt img{margin-top:40px;margin-left:50px;}
+
+#lastOne{width:100%;height:150px;background: #f8f8f8;}/*公共样式最后一层*/
+.lastOne{width:1192px;height:150px;margin:0 auto;text-align: center;}
+.lastOne p a{display: inline-block;font-size:12px;color:#444444;padding:0 4px;background: url(../images/bor1.jpg) right 0 no-repeat;}
+.lastOne p ._cancle{background:none;}/*公共样式最后一个a单独设置样式*/
+.lastOne p a:hover{color:#e91456;}
+.lastOne span{display:block;color:#999999;font-size: 12px;}
+.lastOne .s_one{margin-top: 14px;}/*第一个span*/
+.lastOne .s_two{margin-top: 7px;margin-bottom:4px;}
+.lastOne .s_thr{margin-bottom: 10px;}
+.lastOne .s_fou img{margin-right:20px;}
+.lastOne .s_fou ._img{margin-right:0;}
+
+
+
+
+
+
+

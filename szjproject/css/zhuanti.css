@@ -1,0 +1,46 @@
+/*以下为轮播图部分*/
+body{width:100%;overflow-x:hidden;}
+.banner{width:1192px;height: 348px;position:relative;margin:0 auto;position: relative;overflow: hidden;}
+.shop{cursor:pointer;}
+.zimune{width:180px;height:200px;padding-left:10px;position:absolute;top:0;left:0;background:#fff;border:1px solid #ccc;display:none;z-index:10;}
+.zimune ul li{font-size:14px;line-height:30px;}
+.zimune ul li:hover{text-decoration:underline;color:red;cursor:pointer;}
+.imgList{width:1192px;height:348px;}
+.imgList li{height:348px;display: none;}
+.imgList .imgOn{display:block;}
+.indexList{position: absolute;left:50%;bottom: 5px;z-index: 30;margin-left:-35px;}
+.indexList span{display:inline-block;width:20px;height:20px;float: left;margin-right: 5px;background:#1b1b1b;cursor: pointer;border-radius: 50%;text-align: center;color:#fff;}
+.indexList .indexOn{background:#e91455;color: white;}
+#lbox2{width:1192px;height:150px;background: url(../images/681468.jpg) center 0 no-repeat;margin:23px auto;}
+/*以下为列表页数据读取设置*/
+.nav{width:1192px;height:38px;border-bottom:2px solid #e91456;margin:0 auto;}
+.nav span{display:inline-block;width:120px;height:30px;line-height:30px;text-align: center;cursor:pointer;}
+.nav .cur{background:#ec4154;color:#fff;font-weight:bold;}
+#demo{width:1192px;min-height:800px;margin:0 auto;position:relative;}
+#demo ul{width:1192px;height:321px;}
+#demo ul li{float:left;width:229px;height:321px;margin:5px 5px 5px 0;}
+#demo ul li a{color:#444;}
+#demo ul li a:hover{color:red;}
+#demo ul li img{width:225px;height:229px;}
+/*li第一行文本  价格*/
+#demo ul .lione{display:block;width:53px;height:20px;margin:28px 0 16px;color:#e91456;}
+
+#demo ul .litwo{font-size:12px;}
+.page-list{width:1192px;height:38px;line-height:38px;text-align:right;border-top:2px solid #eee;position:absolute;left:0;bottom:0;margin:0 auto;}
+.page-list span{display:inline-block;width:25px;height:25px;line-height:25px;text-align:center;border:1px solid #ccc;margin-left:10px;cursor:pointer;}
+.page-list .cur{border:1px solid red;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
